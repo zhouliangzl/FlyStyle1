@@ -48,6 +48,7 @@ static void LED_Thread2(void const *argument);
   */
 int main(void)
 {
+	
   /* STM32F4xx HAL library initialization:
        - Configure the Flash prefetch, instruction and Data caches
        - Configure the Systick to generate an interrupt each 1 msec
