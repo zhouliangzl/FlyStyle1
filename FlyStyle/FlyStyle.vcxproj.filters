@@ -37,8 +37,13 @@
     <Filter Include="VisualGDB settings">
       <UniqueIdentifier>{d71f04f8-b49e-40ce-a649-b31ece26af02}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PPM">
+      <UniqueIdentifier>{d8a1a8c7-39b1-405d-b745-4906ce185cf4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FlyStyle.c">
       <Filter>Source files</Filter>
@@ -748,5 +753,8 @@
     <None Include="stm32.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="LED.c">
+      <Filter>PPM</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
